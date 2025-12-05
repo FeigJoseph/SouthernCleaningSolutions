@@ -6,26 +6,22 @@ import { theme } from "../theme";
 
 const Hero = () => {
   return (
-    <div
-      id="hero"
-      className={`relative ${theme.background.primary} min-h-screen flex items-center`}
-    >
+    <div id="hero" className={`relative min-h-screen flex items-center`}>
       {/* Background image with overlay */}
       <div
         className="absolute inset-0 bg-contain bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('${logo}')`,
           backgroundPosition: "center",
-          filter: "brightness(0.4)",
         }}
       />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-2xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-black leading-tight mb-6">
             Crystal Clear Cleaning Excellence
           </h1>
-          <p className="text-xl text-gray-200 mb-8">
+          <p className="text-2xl text-gray mb-8 font-bold">
             Professional window, glass, and exterior cleaning services serving
             Palm Beach and Broward County. 10+ years of trusted service with
             same-day estimates available.
