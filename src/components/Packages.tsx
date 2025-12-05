@@ -31,20 +31,6 @@ const PackageCard: React.FC<PackageCardProps> = ({
         </p>
         <p className={theme.text.secondary}>{savings}</p>
       </div>
-      <ul className={`space-y-3 ${theme.text.primary}`}>
-        <li className="flex items-center">
-          <Check className={`h-5 w-5 ${theme.icon.primary} mr-2`} />
-          <span>After initial service fee</span>
-        </li>
-        <li className="flex items-center">
-          <Check className={`h-5 w-5 ${theme.icon.primary} mr-2`} />
-          <span>Contract agreement required</span>
-        </li>
-        <li className="flex items-center">
-          <Check className={`h-5 w-5 ${theme.icon.primary} mr-2`} />
-          <span>Rates subject to vary</span>
-        </li>
-      </ul>
     </div>
   );
 };
@@ -52,10 +38,10 @@ const PackageCard: React.FC<PackageCardProps> = ({
 const Packages = () => {
   const packages = [
     {
-      name: "Annual",
-      frequency: "Once per year",
-      discount: "2.5% OFF",
-      savings: "Great starting point",
+      name: "One-Time",
+      frequency: "Single cleaning/service",
+      discount: "0% OFF",
+      savings: "As needed",
       color: "border-amber-500",
     },
     {
