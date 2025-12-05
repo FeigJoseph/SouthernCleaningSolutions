@@ -5,14 +5,14 @@ import { theme } from "../theme";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(true); // Was false
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 60) {
         setIsScrolled(true);
       } else {
-        setIsScrolled(false);
+        setIsScrolled(true); // was false
       }
     };
 
