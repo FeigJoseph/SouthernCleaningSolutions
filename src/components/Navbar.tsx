@@ -140,6 +140,13 @@ const Navbar = () => {
               About
             </Link>
             <Link
+              to="#gallery"
+              className={`${theme.text.white} hover:text-cyan-300 block px-3 py-2 text-base font-medium`}
+              onClick={() => setIsOpen(false)}
+            >
+              Gallery
+            </Link>
+            <Link
               to="#contact"
               className={`${theme.text.white} hover:text-cyan-300 block px-3 py-2 text-base font-medium`}
               onClick={() => setIsOpen(false)}
