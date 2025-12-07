@@ -8,16 +8,16 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className={`relative min-h-screen flex items-center bg-white`}
+      className={`relative py-20 md:min-h-screen flex items-center bg-white`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left side - Text content */}
-          <div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-black leading-tight mb-6">
-              Crystal Clear Cleaning
+          <div className="order-2 md:order-1">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-black leading-tight mb-4 md:mb-6">
+              Crystal Clear Cleaning Excellence
             </h1>
-            <p className="text-2xl text-gray mb-8 font-bold">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6 md:mb-8 font-semibold">
               Professional window, glass, and exterior cleaning services serving
               Palm Beach and Broward County. 10+ years of trusted service with
               same-day estimates available.
@@ -40,11 +40,11 @@ const Hero = () => {
           </div>
 
           {/* Right side - Logo */}
-          <div className="flex items-center justify-end">
+          <div className="flex items-center justify-center md:justify-end order-1 md:order-2">
             <img
               src={logo}
               alt="Southern Cleaning Solutions Logo"
-              className="w-full h-auto max-h-[800px] object-contain"
+              className="w-full max-w-xs md:max-w-2xl lg:max-w-4xl h-auto object-contain"
             />
           </div>
         </div>
