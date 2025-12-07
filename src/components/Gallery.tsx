@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import workshop1 from "../assets/inside_1.JPG";
 import workshop2 from "../assets/inside_2.JPG";
 import main_pic from "../assets/main_pic.png";
 import truck1 from "../assets/truck_1.JPG";
-import truck2 from "../assets/outside_1.JPG";
 
 interface GalleryImage {
   src: string;
@@ -18,11 +16,6 @@ const Gallery = () => {
 
   const images: GalleryImage[] = [
     {
-      src: workshop1,
-      alt: "Workshop 1",
-      category: "workshop",
-    },
-    {
       src: workshop2,
       alt: "Workshop 2",
       category: "workshop",
@@ -30,11 +23,6 @@ const Gallery = () => {
     {
       src: truck1,
       alt: "Truck 1",
-      category: "NEFS",
-    },
-    {
-      src: truck2,
-      alt: "Truck 2",
       category: "NEFS",
     },
     {

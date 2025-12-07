@@ -56,7 +56,7 @@ const Services = () => {
     {
       title: "Gutter & Downspout Cleaning",
       description:
-        "Complete gutter and downspout cleaning with professional re-sealing to prevent future issues.",
+        "Complete gutter and downspout cleaning with optional re-sealing to prevent future issues.",
       icon: <Home className="h-10 w-10" />,
     },
     {

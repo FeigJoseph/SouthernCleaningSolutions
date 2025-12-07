@@ -48,7 +48,7 @@ const Packages = () => {
       name: "Bi-Annual",
       frequency: "Twice per year",
       discount: "5% OFF",
-      savings: "Recommended plan",
+      savings: "Better value",
       color: "border-orange-500",
     },
     {
@@ -62,7 +62,7 @@ const Packages = () => {
       name: "Bi-Monthly",
       frequency: "6 times per year",
       discount: "15% OFF",
-      savings: "Better value",
+      savings: "Recommended plan",
       color: "border-blue-500",
     },
     {

@@ -8,6 +8,7 @@ import MessageBoard from "./components/MessageBoard";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Packages />
       <About />
+      <Gallery />
       {/*<MessageBoard />*/}
       <Contact />
       <Footer />
