@@ -15,7 +15,7 @@ const Hero = () => {
           {/* Left side - Text content */}
           <div className="order-2 md:order-1">
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-black leading-tight mb-4 md:mb-6">
-              Crystal Clear Cleaning Excellence
+              Crystal Clear Cleaning
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6 md:mb-8 font-semibold">
               Professional window, glass, and exterior cleaning services serving
