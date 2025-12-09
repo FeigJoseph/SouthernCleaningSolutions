@@ -51,7 +51,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/southerncleaningsolutions.fl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-100 hover:text-cyan-300 transition-colors"
@@ -60,7 +60,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="https://www.tiktok.com"
+                href="https://www.tiktok.com/@scs.fl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-100 hover:text-cyan-300 transition-colors"

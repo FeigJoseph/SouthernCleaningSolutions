@@ -18,7 +18,7 @@ function App() {
       <Services />
       <Packages />
       <About />
-      <Gallery />
+      {/*<Gallery />*/}
       {/*<MessageBoard />*/}
       <Contact />
       <Footer />

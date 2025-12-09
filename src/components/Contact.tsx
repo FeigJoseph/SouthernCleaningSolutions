@@ -130,30 +130,32 @@ const Contact = () => {
                 <a
                   href="https://www.facebook.com/"
                   className={`${theme.text.secondary} hover:text-cyan-600 transition-colors`}
-                  title="Facebook [TBD]"
+                  title="Facebook [southerncleaningsolutions.fl]"
                 >
                   <span className="text-sm">Facebook</span>
                 </a>
                 <span className="text-slate-400">•</span>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/southerncleaningsolutions.fl"
                   className={`${theme.text.secondary} hover:text-cyan-600 transition-colors`}
-                  title="Instagram [TBD]"
+                  title="Instagram [southerncleaningsolutions.fl]"
                 >
                   <span className="text-sm">Instagram</span>
                 </a>
                 <span className="text-slate-400">•</span>
                 <a
-                  href="https://www.tiktok.com/"
+                  href="https://www.tiktok.com/@scs.fl"
                   className={`${theme.text.secondary} hover:text-cyan-600 transition-colors`}
-                  title="TikTok [TBD]"
+                  title="TikTok [scs.fl]"
                 >
                   <span className="text-sm">TikTok</span>
                 </a>
               </div>
+              {/*}
               <p className={`${theme.text.muted} text-xs mt-2`}>
                 (Links coming soon)
               </p>
+              */}
             </div>
           </div>
         </div>
