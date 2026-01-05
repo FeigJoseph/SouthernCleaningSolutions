@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import workshop2 from "../assets/inside_2.JPG";
-import main_pic from "../assets/main_pic.png";
-import truck1 from "../assets/truck_1.JPG";
+import before1 from "../assets/before1.png";
+import after1 from "../assets/after1.png";
+import before2 from "../assets/before2.png";
+import after2 from "../assets/after2.png";
+import before3 from "../assets/before3.png";
+import after3 from "../assets/after3.png";
+import before4 from "../assets/before4.png";
+import after4 from "../assets/after4.png";
+import glassdoor1 from "../assets/glassdoor1.png";
+import glassdoor2 from "../assets/glassdoor2.png";
 
 interface GalleryImage {
   src: string;
@@ -16,23 +23,58 @@ const Gallery = () => {
 
   const images: GalleryImage[] = [
     {
-      src: workshop2,
-      alt: "Workshop 2",
-      category: "workshop",
+      src: before1,
+      alt: "Before1",
+      category: "before",
     },
     {
-      src: truck1,
-      alt: "Truck 1",
-      category: "NEFS",
+      src: after1,
+      alt: "After1",
+      category: "after",
     },
     {
-      src: main_pic,
-      alt: "Main picture",
-      category: "NEFS",
+      src: before2,
+      alt: "Before2",
+      category: "before",
+    },
+    {
+      src: after2,
+      alt: "After2",
+      category: "after",
+    },
+    {
+      src: before3,
+      alt: "Before3",
+      category: "before",
+    },
+    {
+      src: after3,
+      alt: "After3",
+      category: "after",
+    },
+    {
+      src: before4,
+      alt: "Before4",
+      category: "before",
+    },
+    {
+      src: after4,
+      alt: "After4",
+      category: "after",
+    },
+    {
+      src: glassdoor1,
+      alt: "GlassDoor1",
+      category: "glassdoors",
+    },
+    {
+      src: glassdoor2,
+      alt: "GlassDoor2",
+      category: "glassdoors",
     },
   ];
 
-  const categories = ["all", "workshop", "NEFS"];
+  const categories = ["all", "before", "after"];
 
   const filteredImages =
     activeCategory === "all"
@@ -81,6 +123,16 @@ const Gallery = () => {
                 alt={image.alt}
                 className="object-cover w-full h-full"
               />
+
+              {/* Small badge for before/after images */}
+              {(image.category === "before" || image.category === "after") && (
+                <div
+                  className="absolute bottom-3 right-3 bg-black bg-opacity-70 text-white text-xs font-semibold px-2 py-1 rounded"
+                  aria-hidden="true"
+                >
+                  {image.category === "before" ? "Before" : "After"}
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -104,6 +156,18 @@ const Gallery = () => {
                 className="max-w-full max-h-[80vh] object-contain"
                 onClick={(e) => e.stopPropagation()}
               />
+
+              {/* Badge in modal for before/after */}
+              {(selectedImage.category === "before" ||
+                selectedImage.category === "after") && (
+                <div
+                  className="absolute bottom-8 right-8 bg-black bg-opacity-70 text-white text-sm font-semibold px-3 py-1 rounded"
+                  aria-hidden="true"
+                >
+                  {selectedImage.category === "before" ? "Before" : "After"}
+                </div>
+              )}
+
               <p className="text-white text-center mt-4">{selectedImage.alt}</p>
             </div>
           </div>

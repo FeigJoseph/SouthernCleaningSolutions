@@ -64,12 +64,12 @@ const Navbar = () => {
             >
               About
             </Link>
-            {/*<Link
+            <Link
               to="#gallery"
               className={`${theme.text.white} hover:text-cyan-300 transition-colors font-medium`}
             >
               Gallery
-            </Link>*/}
+            </Link>
             <Link
               to="#contact"
               className={`${theme.text.white} hover:text-cyan-300 transition-colors font-medium`}

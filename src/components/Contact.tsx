@@ -112,7 +112,7 @@ const Contact = () => {
                 Own a business or storefront? Get a free quote today!
               </p>
               <a
-                href="https://www.google.com/maps/place/southern+cleaning+solutions+fl"
+                href="https://www.google.com/search?sca_esv=7670df6d756a93b6&hl=en-US&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EwnS34YhwNaT5tXmjkj0X3oU4Lo_uSo5Jmz1lYjS9IRlkvRnbnzMiFqXwRKxomYQ3UFdxfhHavp9TYzoW4jCZYwuVxW64awaSGX6HRK--jWAy5MPNg%3D%3D&q=Southern+Cleaning+Solutions+Reviews&sa=X&ved=2ahUKEwjlgb2trPWRAxVWMlkFHY2iGxIQ0bkNegQIIRAD&biw=1536&bih=760&dpr=1.25#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-block ${theme.button.primary} font-semibold py-2 px-6 rounded-md transition-colors`}
