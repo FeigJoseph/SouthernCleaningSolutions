@@ -1,6 +1,7 @@
 import React from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { theme } from "../theme";
+import termsAndConditions from "../assets/Website Terms & Conditions  Privacy Policy.pdf";
 
 const Contact = () => {
   return (
@@ -107,6 +108,53 @@ const Contact = () => {
 
           {/* CTA Section */}
           <div className="mt-8 pt-8 border-t border-slate-200">
+            {/* Request-a-quote box + existing CTA */}
+            <div className="mb-6 max-w-3xl mx-auto">
+              <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 text-center">
+                <h3
+                  className={`text-lg font-semibold ${theme.text.primary} mb-2`}
+                >
+                  Request a Quote
+                </h3>
+                <p className={`${theme.text.secondary} mb-4`}>
+                  Need a one-time cleaning or a recurring plan? Click below to
+                  submit a request — we&apos;ll follow up with a quote.
+                </p>
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                  <a
+                    href="https://clienthub.getjobber.com/hubs/ebdf6480-fd0f-4adc-b8b0-b4443263f774/public/requests/2196725/new"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-block ${theme.button.primary} font-semibold py-2 px-6 rounded-md transition-colors`}
+                  >
+                    Request a Quote
+                  </a>
+
+                  <a
+                    href="https://clienthub.getjobber.com/client_hubs/ebdf6480-fd0f-4adc-b8b0-b4443263f774/login/new?source=share_login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-white border border-slate-200 text-slate-800 hover:bg-slate-100 font-semibold py-2 px-6 rounded-md transition-colors"
+                  >
+                    Client Hub
+                  </a>
+                </div>
+
+                <p className="text-xs text-slate-500 mt-3">
+                  By submitting a request you agree to our{" "}
+                  <a
+                    href={termsAndConditions}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    Terms &amp; Conditions
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+
             <div className="text-center mb-6">
               <p className={`${theme.text.secondary} mb-4`}>
                 Own a business or storefront? Get a free quote today!

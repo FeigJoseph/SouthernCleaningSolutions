@@ -9,6 +9,7 @@ import {
   Linkedin,
 } from "lucide-react";
 import { theme } from "../theme";
+import termsAndConditions from "../assets/Website Terms & Conditions  Privacy Policy.pdf";
 
 const TikTokIcon = ({ className = "h-5 w-5" }: { className?: string }) => (
   <svg
@@ -146,6 +147,16 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
+              <li>
+                <a
+                  href="https://clienthub.getjobber.com/client_hubs/ebdf6480-fd0f-4adc-b8b0-b4443263f774/login/new?source=share_login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-100 hover:text-cyan-300 transition-colors"
+                >
+                  Client Hub
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -181,7 +192,9 @@ const Footer = () => {
                 Privacy Policy
               </a>
               <a
-                href="#"
+                href={termsAndConditions}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-200 hover:text-cyan-300 transition-colors text-sm"
               >
                 Terms of Service

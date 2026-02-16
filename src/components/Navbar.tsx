@@ -76,6 +76,14 @@ const Navbar = () => {
             >
               Contact
             </Link>
+            <a
+              href="https://clienthub.getjobber.com/client_hubs/ebdf6480-fd0f-4adc-b8b0-b4443263f774/login/new?source=share_login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${theme.text.white} hover:text-cyan-300 transition-colors font-medium`}
+            >
+              Client Hub
+            </a>
           </nav>
 
           {/* Contact Info */}
@@ -86,6 +94,14 @@ const Navbar = () => {
             >
               <Phone className="h-5 w-5 mr-2" />
               <span>(954) 995-0455</span>
+            </a>
+            <a
+              href="https://clienthub.getjobber.com/hubs/ebdf6480-fd0f-4adc-b8b0-b4443263f774/public/requests/2196725/new"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${theme.button.primary} text-sm font-semibold py-2 px-4 rounded-md`}
+            >
+              Request Quote
             </a>
           </div>
 
@@ -153,6 +169,15 @@ const Navbar = () => {
             >
               Contact
             </Link>
+            <a
+              href="https://clienthub.getjobber.com/client_hubs/ebdf6480-fd0f-4adc-b8b0-b4443263f774/login/new?source=share_login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${theme.text.white} hover:text-cyan-300 block px-3 py-2 text-base font-medium`}
+              onClick={() => setIsOpen(false)}
+            >
+              Client Hub
+            </a>
             <div className="border-t border-blue-600 pt-2 mt-2">
               <a
                 href="tel:+19549950455"
