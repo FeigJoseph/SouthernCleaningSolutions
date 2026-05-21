@@ -8,6 +8,8 @@ import {
   PhoneCall,
   AlertCircle,
   Star,
+  SunMedium,
+  Fan,
 } from "lucide-react";
 import { theme } from "../theme";
 
@@ -58,6 +60,18 @@ const Services = () => {
       description:
         "Complete gutter and downspout cleaning with optional re-sealing to prevent future issues.",
       icon: <Home className="h-10 w-10" />,
+    },
+    {
+      title: "Solar Panel Cleaning",
+      description:
+        "Careful solar panel cleaning to help maintain efficiency and keep your system looking its best.",
+      icon: <SunMedium className="h-10 w-10" />,
+    },
+    {
+      title: "Dryer Vent Cleaning",
+      description:
+        "Thorough dryer vent cleaning to improve airflow, support safety, and help your dryer run better.",
+      icon: <Fan className="h-10 w-10" />,
     },
     {
       title: "Residential Cleaning",
