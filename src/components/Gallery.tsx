@@ -8,6 +8,16 @@ import before3 from "../assets/before3.png";
 import after3 from "../assets/after3.png";
 import before4 from "../assets/before4.png";
 import after4 from "../assets/after4.png";
+import before5 from "../assets/before5.png";
+import after5 from "../assets/after5.png";
+import before6 from "../assets/before6.png";
+import after6 from "../assets/after6.png";
+import before7 from "../assets/before7.png";
+import after7 from "../assets/after7.png";
+import before8 from "../assets/before8.png";
+import after8 from "../assets/after8.png";
+import before9 from "../assets/before9.png";
+import after9 from "../assets/after9.png";
 import glassdoor1 from "../assets/glassdoor1.png";
 import glassdoor2 from "../assets/glassdoor2.png";
 
@@ -60,6 +70,56 @@ const Gallery = () => {
     {
       src: after4,
       alt: "After4",
+      category: "after",
+    },
+    {
+      src: before5,
+      alt: "Before5",
+      category: "before",
+    },
+    {
+      src: after5,
+      alt: "After5",
+      category: "after",
+    },
+    {
+      src: before6,
+      alt: "Before6",
+      category: "before",
+    },
+    {
+      src: after6,
+      alt: "After6",
+      category: "after",
+    },
+    {
+      src: before7,
+      alt: "Before7",
+      category: "before",
+    },
+    {
+      src: after7,
+      alt: "After7",
+      category: "after",
+    },
+    {
+      src: before8,
+      alt: "Before8",
+      category: "before",
+    },
+    {
+      src: after8,
+      alt: "After8",
+      category: "after",
+    },
+    {
+      src: before9,
+      alt: "Before9",
+      category: "before",
+    },
+    {
+      src: after9,
+      alt: "After9",
       category: "after",
     },
     {

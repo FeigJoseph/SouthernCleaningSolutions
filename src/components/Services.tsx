@@ -62,12 +62,6 @@ const Services = () => {
       icon: <Home className="h-10 w-10" />,
     },
     {
-      title: "Solar Panel Cleaning",
-      description:
-        "Careful solar panel cleaning to help maintain efficiency and keep your system looking its best.",
-      icon: <SunMedium className="h-10 w-10" />,
-    },
-    {
       title: "Dryer Vent Cleaning",
       description:
         "Thorough dryer vent cleaning to improve airflow, support safety, and help your dryer run better.",
@@ -78,6 +72,12 @@ const Services = () => {
       description:
         "Comprehensive residential cleaning services tailored to keep your home spotless and well-maintained.",
       icon: <Home className="h-10 w-10" />,
+    },
+    {
+      title: "Solar Panel Cleaning",
+      description:
+        "Safe and effective solar panel cleaning to maximize energy output and maintain panel efficiency.",
+      icon: <SunMedium className="h-10 w-10" />,
     },
     {
       title: "Commercial Cleaning",
@@ -97,6 +97,7 @@ const Services = () => {
         "We use only the best tools and products the industry has to offer for superior results.",
       icon: <Star className="h-10 w-10" />,
     },
+   
   ];
 
   return (
